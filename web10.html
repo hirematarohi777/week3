@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            position: fixed;
+            top:0px;
+            left:0px;
+            background-image:linear-gradient(120deg,green,red,blue,yellow,white,orange);
+            font-size: 40px;
+            width: 100%;
+            text-align: center;
+            color:white;
+            text-shadow: 5px 4px 3px black;
+            font-family: fantasy;
+        }
+        footer{
+            position: fixed;
+            bottom:1px;
+            left:0px;
+            background-image:linear-gradient(120deg,green,green,red,blue,yellow,white,orange);
+            font-size: 40px;
+            width: 100%;
+            text-align: center;
+            color: white;
+            text-shadow: 2px 2px 2px;
+            font-family: fantasy;
+        }
+        .a{grid-area: a1;
+            display:flex;
+            flex-direction:row;
+        text-anchor:end;}
+        .b{grid-area: b1;display:flex;
+            flex-direction:row}
+        .c{grid-area: c1;display:flex;
+            flex-direction:row}
+        .d{grid-area: d1;display:flex;
+            flex-direction:row}
+        .e{grid-area: e1;display:flex;
+            flex-direction:row}
+        #maindiv{
+            display:flex;
+            flex-direction:column;
+            grid-template-areas:
+            'a1 a1 a1 a1 a1 a1'
+             'b1 b1 b1 c1 c1 c1'
+             'd1 d1 d1 e1 e1 e1';
+             text-align: center;
+             color:white;
+             background-image: url("back.jpg");
+             background-size:cover;
+             font-size: 40px;
+             border-style: double;
+             border-width: 20px;
+             position: absolute;
+             left:40px;
+        }
+        div{
+           background-color:blue;
+           padding: 20px;
+           margin: 20px;
+           box-shadow: -20px 10px 12px black;
+           border-radius: 60px;
+           border-color: aquamarine;
+           background-color: black;
+           border-style: double;
+           border-width: 20px;
+           text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="padding-top: 70px;">hello everyone</h1>
+    <header><U>historical places in INDIA</U></header>
+    
+    <div id="maindiv">
+        <div class="a">
+                   <img src="https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcRYF0epX_fXePMiTq0fRFePb7yYVJCYy7BsDrlDde-bUrtJttSG061owsh-sSAIl74y" width="400px" height="400px">
+        <p>Taj Mahal, Agra
+            image of Taj Mahal, Agra
+            The Taj Mahal is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra,
+             Uttar Pradesh, India.</p>
+             <div>
+             <a href="https://whc.unesco.org/en/list/252/"  role="botton" > see more information </a>
+             </div>
+                </div>
+        <div class="b">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Mysore_Palace_Morning.jpg/375px-Mysore_Palace_Morning.jpg"width="400px" height="400px">
+            <p>Mysore Palace, also known as Amba Vilas Palace, is a historical palace and a royal residence (house). 
+                It is located in Mysore, Karnataka, India. It used to be the official residence of the 
+                Wadiyar dynasty and the seat of the Kingdom of Mysore.</p>
+                <div align="center">
+                    <a href="https://en.wikipedia.org/wiki/Mysore_Palace" role="botton"> see more information</a>
+                    </div>
+        </div>
+        <div class="c"> <img src="https://assets-news.housing.com/news/wp-content/uploads/2022/08/31020547/places-to-visit-in-hampi-FEATURE-compressed.jpg"width="400px" height="400px">
+            <p>Hampi is a historical city located within Karnataka in India. 
+                The city was known to be the seat of the 
+                Vijayanagara empire which flourished here from the 14th century</p>
+                <div align="center">
+                    <a href="https://en.wikipedia.org/wiki/Hampi" role="botton"> see more information</a>
+                    </div>
+        </div>
+        <div class="d"><img src="https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTVqogVclzoRTUq8hBOgHIeJaZgw8mZez4HDRNZMqoT_eV8nOJYFg_iGIdxlC7xa-b_"width="400px" height="400px">
+            <p>The Red Fort or Lal Qila is a historic fort in the Old Delhi neighbourhood of Delhi, India, 
+                that historically served as the main residence of the Mughal emperors.</p>
+                <div align="center">
+                    <a href="https://en.wikipedia.org/wiki/Red_Fort" role="botton"> see more information </a>
+                    </div>
+        </div>
+        <div align="center">
+            <h6><u>national anthem</u></h6>
+            <audio src="https://pagalworldl.com/files/download/id/11602" controls width="70px" height="70px"></audio>
+        </div>
+        <p>DESIGNED BY ROHITH</p>
+        <footer><u>THANK YOU ALL</u></footer>
+    </div>
+</body>
+</html>
